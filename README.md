@@ -70,4 +70,18 @@ D2[key] = 42|Adding/changing
 del D2[key]|deleting
 D4 = dict(zip(keyslist, valslist))|Construction
 
+**Operation**|**Interpretation**
+:-----:|:-----:
+( )|An empty tuple
+T1 = (0,)|A one-item tuple (not an expression)
+T2 = (0, 'Ni', 1.2, 3)|A four-item tuple
+T2 = 0, 'Ni', 1.2, 3|Another four-item tuple (same as prior line)
+T1[i]|Indexing
+T1[i:j]|slicing
+len(t1)|length (number of items)
+T1 + T2|Concatenation
+T2 * 3|repetition
+for x in T2|Iteration
+3 in T2|membership
+
 
