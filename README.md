@@ -56,5 +56,18 @@ output.writelines(L)|Write all line strings in list L into file.
 output.close( )|Manual close (done for you when file collected).
 
 
+**Operation**|**Interpretation**
+:-----:|:-----:
+D1 = { }|Empty dictionary
+D2 = {'spam': 2, 'eggs': 3}|Two-item dictionary
+D2['eggs']|Indexing by key
+D2.has\_key('eggs'),|'eggs' in D2 membership test
+D2.keys( ), D2.values( ), D2.items( )|lists of keys, values, items
+D2.copy( ), D2.update(D1)|shallow copy, dict merging
+D2.get(key, default=None)|"indexing" w/default value
+len(D1)|Length (number stored entries)
+D2[key] = 42|Adding/changing
+del D2[key]|deleting
+D4 = dict(zip(keyslist, valslist))|Construction
 
 
