@@ -30,6 +30,12 @@ x and y|Boolean AND|L
 x or y|Boolean OR|L
 lambda arg,...: expr|Anonymous simple function|NA
 
+*** x!=y and x<>y are the same inequality test (!= is the preferred form**|** <> obsolete)**
+:-----:|:-----:
+
+A � Associativity L � Left R � Right C � Chaining NA � Not associative
+
+
 # LIST OBJECT METHODS
 
 **Operator**|**Description**
