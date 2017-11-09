@@ -43,6 +43,17 @@ L.reverse( )|Reverses, in-place, the items of L
 L.sort(f=cmp)|Sorts, in-place, the items of L, comparing items by f
 
 
+**Operation**|**Interpretation**
+:-----:|:-----:
+output = open('/tmp/spam', 'w')|Create output file ('w' means write).
+input = open('data', 'r')|Create input file ('r' means read).
+S = input.read( )|Read entire file into a single string.
+S = input.read(N)|Read N bytes (1 or more).
+S = input.readline( )|Read next line (through end-line marker).
+L = input.readlines( )|Read entire file into list of line strings.
+output.write(S)|Write string S into file.
+output.writelines(L)|Write all line strings in list L into file.
+output.close( )|Manual close (done for you when file collected).
 
 
 
