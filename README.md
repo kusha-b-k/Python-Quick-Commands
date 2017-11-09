@@ -1,6 +1,8 @@
 # Python-Quick-Commands
 Python-Quick-Commands
 
+# OPERATOR PRECEDENCE IN EXPRESSIONS
+
 **`expr,...`**|**String conversion**|**NA**
 :-----:|:-----:|:-----:
 {key:expr,...}|Dictionary creation|NA
@@ -28,7 +30,7 @@ x and y|Boolean AND|L
 x or y|Boolean OR|L
 lambda arg,...: expr|Anonymous simple function|NA
 
-
+# LIST OBJECT METHODS
 
 **Operator**|**Description**
 :-----:|:-----:
@@ -43,6 +45,8 @@ L.reverse( )|Reverses, in-place, the items of L
 L.sort(f=cmp)|Sorts, in-place, the items of L, comparing items by f
 
 
+# COMMON FILE OPERATIONS
+
 **Operation**|**Interpretation**
 :-----:|:-----:
 output = open('/tmp/spam', 'w')|Create output file ('w' means write).
@@ -55,6 +59,7 @@ output.write(S)|Write string S into file.
 output.writelines(L)|Write all line strings in list L into file.
 output.close( )|Manual close (done for you when file collected).
 
+# COMMON DICTIONARY LITERALS AND OPERATIONS
 
 **Operation**|**Interpretation**
 :-----:|:-----:
@@ -69,6 +74,8 @@ len(D1)|Length (number stored entries)
 D2[key] = 42|Adding/changing
 del D2[key]|deleting
 D4 = dict(zip(keyslist, valslist))|Construction
+
+# COMMON TUPLE LITERALS AND OPERATIONS
 
 **Operation**|**Interpretation**
 :-----:|:-----:
